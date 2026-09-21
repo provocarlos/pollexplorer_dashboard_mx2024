@@ -1,0 +1,56 @@
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+
+.subtitulo, p {
+  text-align: center;
+}
+
+#footer {
+  background: #444;
+  color: #fff;
+  border:0;
+}
+
+.grafica {
+  border-left: 1px solid #000;
+}
+
+#logo {
+  margin: 0;
+  text-align: center;
+  height: 128px !important;
+}
+
+.cuadro {
+  text-align: center;
+}
+
+.centrado {
+   display: flex !important;
+   justify-content: center !important;
+   flex-direction: row;
+}
+
+.intro {
+  align-content: center !important;
+}
+
+.izquierda h3, .izquierda p {
+  text-align: left !important;
+}
+
+
+.pregunta {
+  display: inline-block;
+  max-width: 100%;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-family: promptregular;
+  font-size: 1.5em;
+  
+}
+
+.footer-title {
+  text-align: left;
+}

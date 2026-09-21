@@ -1,0 +1,267 @@
+/*Importar fuentes*/
+@font-face {
+    font-family: 'promptregular';
+    src: url('Fonts/Prompt/prompt-regular-webfont.woff2') format('woff2'),
+         url('Fonts/Prompt/prompt-regular-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'promptbold';
+    src: url('Fonts/Prompt/prompt-bold-webfont.woff2') format('woff2'),
+         url('Fonts/Prompt/prompt-bold-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'promptlight_italic';
+    src: url('Fonts/Prompt/prompt-lightitalic-webfont.woff2') format('woff2'),
+         url('Fonts/Prompt/prompt-lightitalic-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'promptlight';
+    src: url('Fonts/Prompt/prompt-light-webfont.woff2') format('woff2'),
+         url('Fonts/Prompt/prompt-light-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'promptthin_italic';
+    src: url('Fonts/Prompt/prompt-thinitalic-webfont.woff2') format('woff2'),
+         url('Fonts/Prompt/prompt-thinitalic-webfont.woff') format('woff');
+}
+
+body {
+    background-color: "#F0F0F0";
+}
+
+.pull-right {
+      position: fixed;
+    right: 0;
+    z-index: 9;
+}
+
+.video {
+  position: fixed;
+  left: -15px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: promptbold;
+  font-size: 5vw;
+}
+
+h3 {
+    font-family: promptlight;
+  font-size: 3vw;
+  text-align: left;
+}
+
+.titular {
+  padding: 0;
+}
+
+p .enlace {
+  font-size: 2vh; 
+  font-family: promptregular;
+  text-align: left;
+}
+
+.subtitulo{
+  text-align: left;
+  font-size: 2vh;
+}
+
+nav .navbar {
+  background-color: #FFFFFF00;
+}
+
+.centrado {
+display: flex;
+align-items: center;
+justify-content: center;
+align-content: center;
+height: 90vh;
+}
+
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  color: #FFFFFF;
+  min-height: 500px;
+  background-image: url(bg_1.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+}
+
+.secciones {
+  display:flex;
+  justify-content: center;
+  align-items: space-between;
+  flex-wrap: wrap;
+}
+
+.seccion {
+  border: 1px solid #000;
+  border-radius: 25px;
+  padding: 2em;
+  height: 30vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-content: flex-start;
+  overflow: scroll;
+}
+
+a .seccion {
+  color: #000;
+  margin-bottom: 2em;
+      min-width: 30%;
+}
+
+@media (max-width: 767px) {
+  .centrado {
+    display: flex;
+    flex-direction: column-reverse;
+    
+  }
+  
+  .login h1 {
+    margin: 100px 15px 0 0;
+    
+  }
+  
+a .seccion {
+  min-width: 90vw;
+}
+  
+}
+
+.login h1 {
+  color: #ffffff;
+  text-align: left;
+  justify-content: center;
+  align-content: center;
+  font-family: promptbold;
+  font-size: 6vw;
+}
+
+.login p {
+    color: #ffffff;
+  text-align: left;
+  justify-content: center;
+  align-content: center;
+  font-family: promptregular;
+  font-size: 4vh;
+}
+
+#login-panel {
+  width: inherit !important;
+  margin: inherit !important;
+}
+
+#login-panel .well{
+  min-height: 400px;
+  min-width: 200px;
+  background-color: #ffffff;
+  border-radius: 25px;
+}
+
+.btn-default {
+  background: #000000;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 25px;
+}
+
+.navbar-inner {
+    background:transparent;
+}
+
+.user_name, .password {
+    border-radius: 25px;
+}
+
+.texto-centro {
+  text-align: center;
+  margin: 0vh 0 5vh 0;
+}
+
+.texto-centro a, .texto-centro a:hover {
+  color: #ffffff;
+}
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+  background-color: rgba(0,0,0,0.4);
+}
+
+a:hover .seccion {
+  color: #FFF;
+  background: #000;
+  cursor: pointer;
+}
+
+a:hover .seccion img {
+  filter: invert(100%);
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.icono {
+  flex-basis: auto;
+}
+
+.selectize-control.single .selectize-input, .selectize-control.single .selectize-input input {
+  border-radius: 25px;
+  font-style: italic;
+}
+
+.selectize-control.multi .selectize-input.has-items {
+  font-style: italic;
+}
+
+#footer {
+  background: #444;
+  color: #fff;
+  border:0;
+}
+
+.grafica {
+  border-left: 1px solid #000;
+}
+
+.highchart {
+  margin: 20px 0;
+}
+
+#logo {
+  margin: 0 auto;
+  text-align: center;
+  height: 40px;
+}
+
+.cuadro {
+  text-align: center;
+}
+
+.izquierda h3, .izquierda p {
+  text-align: left;
+}
+
+.pregunta {
+  display: inline-block;
+  max-width: 100%;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-family: promptregular;
+  font-size: 1.5em;
+}
+
+.footer-title {
+  text-align: left;
+}
+
+.login-panel

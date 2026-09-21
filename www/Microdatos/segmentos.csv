@@ -1,0 +1,24 @@
+﻿segmento,var,por
+Generaciones,Generación Z,0.2486
+Generaciones,Millennials,0.2652
+Generaciones,Generación X,0.2112
+Generaciones,B. Boomers,0.2349
+Generaciones,Silenciosos,0.0401
+Sexo,Mujer,0.5203
+Sexo,Hombre,0.4797
+NSE,A/B,0.0699
+NSE,C+,0.1102
+NSE,C,0.1460
+NSE,C-,0.1662
+NSE,D+,0.1721
+NSE,D,0.2586
+NSE,E,0.0769
+Escolaridad,Sin estudios,0.0370
+Escolaridad,Primaria,0.2220
+Escolaridad,Secundaria,0.3240
+Escolaridad,Bachillerato o símil,0.2700
+Escolaridad,Universidad o más,0.1470
+Zona,Centro,0.3190
+Zona,Occidente,0.2300
+Zona,Sureste,0.2280
+Zona,Norte,0.2230
